@@ -29,6 +29,9 @@
 
 name: Publish GeoLite.mmdb
 
+permissions:
+  contents: write
+
 on:
   repository_dispatch:
   workflow_dispatch:
